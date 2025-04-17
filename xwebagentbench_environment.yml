@@ -1,4 +1,4 @@
-name: xwebagent
+name: xwebagentbench
 channels:
   - pytorch
   - conda-forge
