@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>
-  [<a href="paper_url">Arxiv</a>]
+  [<a href="https://arxiv.org/abs/2505.15372">Arxiv</a>]
   </b>
   <br/>
 </p>
