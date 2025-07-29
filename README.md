@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>
-  [<a href="https://arxiv.org/abs/2505.15372">Arxiv</a>]
+  [<a href="https://arxiv.org/abs/2505.15372">Arxiv</a>] / [<a href="https://aclanthology.org/2025.findings-acl.988/">ACL 2025 Findings</a>]
   </b>
   <br/>
 </p>
@@ -199,8 +199,28 @@ In addition, you can get output log in `X-WebAgentBench/Eval/saved_log/MODEL/MET
 
 ## Reference
 If you find this project useful for your research, please consider citing the following paper:
-```
-@article
+```bibtex
+@inproceedings{wang-etal-2025-x,
+    title = "{X}-{W}eb{A}gent{B}ench: A Multilingual Interactive Web Benchmark for Evaluating Global Agentic System",
+    author = "Wang, Peng  and
+      Tao, Ruihan  and
+      Chen, Qiguang  and
+      Hu, Mengkang  and
+      Qin, Libo",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.988/",
+    pages = "19320--19335",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Recently, large language model (LLM)-based agents have achieved significant success in interactive environments, attracting significant academic and industrial attention. Despite these advancements, current research predominantly focuses on English scenarios. In reality, there are over 7,000 languages worldwide, all of which demand access to comparable agentic services. Nevertheless, the development of language agents remains inadequate for meeting the diverse requirements of multilingual agentic applications. To fill this gap, we introduce X-WebAgentBench, a novel multilingual agent benchmark in an interactive web environment, which evaluates the planning and interaction performance of language agents across multiple languages, thereby contributing to the advancement of global agent intelligence. Additionally, we assess the performance of various LLMs and cross-lingual alignment methods, examining their effectiveness in enhancing agents. Our findings reveal that even advanced models like GPT-4o, when combined with cross-lingual techniques, fail to achieve satisfactory results. We hope that X-WebAgentBench can serve as a valuable benchmark for multilingual agent scenario in real-world applications."
+}
 ```
 
 ## Contact
